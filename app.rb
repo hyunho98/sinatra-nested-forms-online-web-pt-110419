@@ -8,7 +8,7 @@ module FormsLab
       erb :new
     end
 
-    get '/root'
+    get '/root' do
       erb :root
     end
 
