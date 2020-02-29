@@ -16,6 +16,8 @@ module FormsLab
       end
 
       @ships = Ship.all
+
+      erb :'pirates/show'
     end
 
     get '/root' do
