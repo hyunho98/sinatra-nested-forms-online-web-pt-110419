@@ -7,6 +7,7 @@ class Pirate
     @name = name
     @weight = weight
     @height = height
+    @ships = []
     @@all << self
   end
 
