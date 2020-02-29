@@ -16,7 +16,6 @@ module FormsLab
       end
 
       @ships = Ship.all
-
     end
 
     get '/root' do
