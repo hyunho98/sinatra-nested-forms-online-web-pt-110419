@@ -1,14 +1,15 @@
 <h1>Make your form here</h1>
 <form method="post" action="/pirates">
   <label for="pirate">Pirate's Name</label>
-  <input type="text" name="pirate[:name]" id="pirate">
+  <input type="text" name="pirate[name]" id="pirate">
   <label for="pirate_weight">Pirate's Weight</label>
-  <input type="text" name="pirate[:weight]" id="pirate_weight">
+  <input type="text" name="pirate[weight]" id="pirate_weight">
   <label for="pirate_height">Pirate's Height</label>
-  <input type="text" name="pirate[:height]" id="pirate_height">
+  <input type="text" name="pirate[height]" id="pirate_height">
 
   <label for="ship_one">Ship's Name</label>
   <input type="text" name="pirate[ships][][name]" id="ship_one">
-  <label for="ship_one">Ship's
+  <label for="ship_one">Ship's Type</label>
+  <input type="text" name="pirate[ships][][type]"
 
 </form>
