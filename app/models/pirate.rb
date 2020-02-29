@@ -7,7 +7,7 @@ class Pirate
     @name = :name
     @weight = :weight
     @height = :height
-    @ships = :ship
+    @ships = :ships
     @@all << self
   end
 
