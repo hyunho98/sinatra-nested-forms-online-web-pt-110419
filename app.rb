@@ -20,7 +20,7 @@ module FormsLab
       erb :'pirates/show'
     end
 
-    get '/root' do
+    get '/' do
       erb :root
     end
 
